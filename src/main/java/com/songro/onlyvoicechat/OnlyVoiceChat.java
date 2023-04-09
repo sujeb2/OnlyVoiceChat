@@ -1,7 +1,7 @@
 package com.songro.onlyvoicechat;
 
 import com.songro.onlyvoicechat.event.onChat;
-import com.songro.onlyvoicechat.event.onTextBlockPlace;
+import com.songro.onlyvoicechat.event.onCommandUsage;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -23,9 +23,9 @@ public final class OnlyVoiceChat extends JavaPlugin {
                 log.severe("채팅 이벤트를 등록중에 오류가 발생했습니다.");
             }
             try {
-                getServer().getPluginManager().registerEvents(new onTextBlockPlace(), this);
+                getServer().getPluginManager().registerEvents(new onCommandUsage(), this);
             } catch (Exception e) {
-                log.severe("표지판 이벤트를 등록중에 오류가 발생했습니다.");
+                log.severe("명령어 실행 이벤트를 등록중에 오류가 발생했습니다.");
             }
         } catch (Exception e) {
             log.severe("오류가 발생했습니다.");
