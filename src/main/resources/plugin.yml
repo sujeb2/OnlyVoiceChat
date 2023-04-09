@@ -1,0 +1,8 @@
+name: OnlyVoiceChat
+version: '${project.version}'
+main: com.songro.onlyvoicechat.OnlyVoiceChat
+api-version: 1.19
+prefix: OnlyVoice
+authors: [notSongro]
+description: it blocks chat, but only voice
+website: https://docs.songro.kro.kr/

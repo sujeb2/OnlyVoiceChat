@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="OnlyVoiceChat:jar">
+    <output-path>$USER_HOME$/바탕 화면/1.19 test server/plugins</output-path>
+    <root id="archive" name="OnlyVoiceChat.jar">
+      <element id="module-output" name="OnlyVoiceChat" />
+    </root>
+  </artifact>
+</component>
